@@ -63,9 +63,9 @@ button {
 }
 
 .progress-bar-container {
-    background-color: black;
+    background-color: white;
     border-radius: 5px;
-    margin: 10px 0;
+    margin: 15px 0;
     height: 25px;
     overflow: hidden;
 }
