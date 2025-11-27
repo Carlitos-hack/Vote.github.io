@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+.candidats-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.candidat {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+.candidat img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 5px solid #ddd;
+}
+
+.candidat h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    opacity: 0.6; /* Rendre le bouton désactivé visiblement inactif */
+}
+
+.resultats {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    text-align: left;
+}
+
+.progress-bar-container {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin: 10px 0;
+    height: 25px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #28a745;
+    height: 100%;
+    width: 0%; /* La largeur sera mise à jour par JS */
+    transition: width 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #eee;
+    color: #666;
+    font-size: 0.8em;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Vote Simple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🗳️ Votez pour votre Candidat Préféré !</h1>
+    </header>
+
+    <main class="candidats-container">
+        
+        <div class="candidat" data-candidat-id="candidatA">
+            <img src="8BBFE199-9B44-4198-9657-106422FB302C.jpeg" alt="Photo de Candidat A">
+            <h2>Candidat A</h2>
+
+
+
+
+
+
+
+<a href="https://chat.whatsapp.com/FHvlw2k9pURA8J4XyqEYVs">
+            <button onclick="voter('candidatA')">Voter</button>
+
+</a>
+
+
+
+
+            <div class="resultats">
+                <p>Votes : <span id="votesA">0</span></p>
+                <div class="progress-bar-container">
+                    <div id="pourcentageBarA" class="progress-bar"></div>
+                </div>
+                <p>Pourcentage : <span id="pourcentageA">0.00%</span></p>
+            </div>
+        </div>
+
+        <div class="candidat" data-candidat-id="candidatB">
+            <img src="4E106844-2814-48F4-BBB3-220EC865F674.jpeg" alt="Photo de Candidat B">
+            <h2>Candidat B</h2>
+            <button onclick="voter('candidatB')">Voter</button>
+            <div class="resultats">
+                <p>Votes : <span id="votesB">0</span></p>
+                <div class="progress-bar-container">
+                    <div id="pourcentageBarB" class="progress-bar"></div>
+                </div>
+                <p>Pourcentage : <span id="pourcentageB">0.00%</span></p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Simulation de vote locale (Les votes ne sont pas partagés entre les utilisateurs).</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
